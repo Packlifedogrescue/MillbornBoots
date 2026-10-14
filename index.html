@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Millborn Boots — Handmade Leather Boots &amp; Goods</title>
+  <meta name="description" content="Millborn Boots: handmade leather boots and goods, cut, stitched and finished by hand to last a lifetime.">
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="brand" href="#top" aria-label="Millborn Boots home">
+        <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><use href="#boot-icon"/></svg>
+        <span class="brand-name">Millborn<span>Boots</span></span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="site-nav">
+        <span class="sr-only">Menu</span>
+        <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+      </button>
+      <nav class="site-nav" id="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="#collection">Collection</a></li>
+          <li><a href="#craft">The Craft</a></li>
+          <li><a href="#about">Our Story</a></li>
+          <li><a href="#care">Care</a></li>
+          <li><a class="btn btn-small" href="#custom">Custom Order</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">Handmade leather boots &amp; goods</p>
+          <h1>Built by hand.<br>Made to outlast you.</h1>
+          <p class="lede">Every pair of Millborn boots is cut, lasted, stitched and finished at the bench, one at a time, from full-grain leather. Made right and resoled as needed, they'll carry you for decades.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#collection">Shop the collection</a>
+            <a class="btn btn-ghost" href="#custom">Commission a pair</a>
+          </div>
+          <ul class="hero-points">
+            <li>Full-grain leather</li>
+            <li>Goodyear welted</li>
+            <li>Resoleable for life</li>
+          </ul>
+        </div>
+        <div class="hero-art" aria-hidden="true">
+          <svg viewBox="0 0 400 400" class="hero-boot">
+            <circle cx="200" cy="200" r="180" class="hero-ring"/>
+            <use href="#boot-icon" x="70" y="60" width="260" height="260"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- Collection -->
+    <section class="section" id="collection">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">The Collection</p>
+          <h2>Boots &amp; leather goods</h2>
+          <p>Small batches, made to order. Each piece is unique, and that shows in the grain.</p>
+        </header>
+
+        <div class="filters" role="group" aria-label="Filter products">
+          <button class="filter is-active" data-filter="all" aria-pressed="true">All</button>
+          <button class="filter" data-filter="boots" aria-pressed="false">Boots</button>
+          <button class="filter" data-filter="goods" aria-pressed="false">Goods</button>
+        </div>
+
+        <ul class="product-grid">
+          <li class="product" data-category="boots">
+            <div class="product-art tone-1" aria-hidden="true"><svg viewBox="0 0 64 64"><use href="#boot-icon"/></svg></div>
+            <div class="product-body">
+              <h3>The Foreman</h3>
+              <p>A 6" service boot in oil-tanned brown. Leather midsole, Vibram lug outsole, built for work days.</p>
+              <div class="product-meta"><span class="price">$395</span><a href="#custom" class="link" data-product="The Foreman">Inquire →</a></div>
+            </div>
+          </li>
+          <li class="product" data-category="boots">
+            <div class="product-art tone-2" aria-hidden="true"><svg viewBox="0 0 64 64"><use href="#boot-icon"/></svg></div>
+            <div class="product-body">
+              <h3>The Ridgeline</h3>
+              <p>An 8" lace-to-toe engineer's boot with a steel shank and a double-stitched welt, made for rough ground.</p>
+              <div class="product-meta"><span class="price">$445</span><a href="#custom" class="link" data-product="The Ridgeline">Inquire →</a></div>
+            </div>
+          </li>
+          <li class="product" data-category="boots">
+            <div class="product-art tone-3" aria-hidden="true"><svg viewBox="0 0 64 64"><use href="#boot-icon"/></svg></div>
+            <div class="product-body">
+              <h3>The Millborn Chelsea</h3>
+              <p>A clean, pull-on boot in black calf with a stacked leather heel. It works as well in town as it does on the farm.</p>
+              <div class="product-meta"><span class="price">$375</span><a href="#custom" class="link" data-product="The Millborn Chelsea">Inquire →</a></div>
+            </div>
+          </li>
+          <li class="product" data-category="goods">
+            <div class="product-art tone-2" aria-hidden="true"><svg viewBox="0 0 64 64"><use href="#belt-icon"/></svg></div>
+            <div class="product-body">
+              <h3>Heritage Belt</h3>
+              <p>A single strip of 10 oz bridle leather with a solid brass buckle and hand-burnished edges.</p>
+              <div class="product-meta"><span class="price">$95</span><a href="#custom" class="link" data-product="Heritage Belt">Inquire →</a></div>
+            </div>
+          </li>
+          <li class="product" data-category="goods">
+            <div class="product-art tone-1" aria-hidden="true"><svg viewBox="0 0 64 64"><use href="#wallet-icon"/></svg></div>
+            <div class="product-body">
+              <h3>Bifold Wallet</h3>
+              <p>Saddle-stitched by hand with waxed linen thread. It's slim when new and gets better with every year.</p>
+              <div class="product-meta"><span class="price">$85</span><a href="#custom" class="link" data-product="Bifold Wallet">Inquire →</a></div>
+            </div>
+          </li>
+          <li class="product" data-category="goods">
+            <div class="product-art tone-3" aria-hidden="true"><svg viewBox="0 0 64 64"><use href="#bag-icon"/></svg></div>
+            <div class="product-body">
+              <h3>Workshop Tote</h3>
+              <p>A heavyweight tote with riveted handles and an interior slip pocket. It's sized for real loads.</p>
+              <div class="product-meta"><span class="price">$240</span><a href="#custom" class="link" data-product="Workshop Tote">Inquire →</a></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- Craft -->
+    <section class="section section-dark" id="craft">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">The Craft</p>
+          <h2>From hide to heel</h2>
+          <p>We take no shortcuts. Each pair takes several weeks at the bench.</p>
+        </header>
+        <ol class="steps">
+          <li>
+            <span class="step-num">01</span>
+            <h3>Select</h3>
+            <p>We choose each hide by hand and cut the panels to avoid flaws and follow the grain.</p>
+          </li>
+          <li>
+            <span class="step-num">02</span>
+            <h3>Last</h3>
+            <p>The upper is pulled tight over a wooden last and left to take its shape.</p>
+          </li>
+          <li>
+            <span class="step-num">03</span>
+            <h3>Welt</h3>
+            <p>A Goodyear welt is stitched in, so the sole can be replaced again and again.</p>
+          </li>
+          <li>
+            <span class="step-num">04</span>
+            <h3>Finish</h3>
+            <p>We burnish the edges, dress the leather and inspect every stitch before the pair leaves the shop.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="about-copy">
+          <p class="eyebrow">Our Story</p>
+          <h2>A small shop with old habits</h2>
+          <p>Millborn started with one pair of boots, one bench, and the belief that the things you wear every day should be made to last. We still work the same way: by hand, in small batches, with materials we'd stake our name on.</p>
+          <p>We don't chase trends. We make honest boots and leather goods that you can wear hard and repair for years.</p>
+        </div>
+        <dl class="stats">
+          <div><dt>Hours per pair</dt><dd>40+</dd></div>
+          <div><dt>Stitches per boot</dt><dd>1,200</dd></div>
+          <div><dt>Resoles possible</dt><dd>Many</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- Care -->
+    <section class="section section-alt" id="care">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Care</p>
+          <h2>Keep them going</h2>
+        </header>
+        <div class="faq">
+          <details>
+            <summary>How do I break in my boots?</summary>
+            <p>Wear them for short stretches at home for the first week. The leather and cork footbed will mold to your foot. Expect them to feel snug at first; that's how they should feel.</p>
+          </details>
+          <details>
+            <summary>How often should I condition the leather?</summary>
+            <p>Every 1–3 months, depending on wear and weather. Brush off any dirt, work in a light coat of conditioner, let it absorb overnight, then buff.</p>
+          </details>
+          <details>
+            <summary>Can you resole my boots?</summary>
+            <p>Yes. Every Millborn boot is welted so it can be resoled. Get in touch and we'll arrange it.</p>
+          </details>
+          <details>
+            <summary>How long does a custom order take?</summary>
+            <p>Lead times vary with the season and the size of our queue. We'll give you an honest estimate when you inquire.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <!-- Custom order / contact -->
+    <section class="section" id="custom">
+      <div class="container contact">
+        <div class="contact-copy">
+          <p class="eyebrow">Custom Orders</p>
+          <h2>Commission a pair</h2>
+          <p>Tell us what you need: the style, the leather, your size and how you'll wear them. We'll get back to you with options and a quote.</p>
+        </div>
+        <form class="contact-form" id="contact-form" novalidate>
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" autocomplete="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" required>
+          </div>
+          <div class="field">
+            <label for="interest">Interested in</label>
+            <select id="interest" name="interest">
+              <option>Custom boots</option>
+              <option>The Foreman</option>
+              <option>The Ridgeline</option>
+              <option>The Millborn Chelsea</option>
+              <option>Heritage Belt</option>
+              <option>Bifold Wallet</option>
+              <option>Workshop Tote</option>
+              <option>Resole / repair</option>
+              <option>Something else</option>
+            </select>
+          </div>
+          <div class="field">
+            <label for="message">Details</label>
+            <textarea id="message" name="message" rows="5" placeholder="Size, leather color, intended use…" required></textarea>
+          </div>
+          <button class="btn" type="submit">Send inquiry</button>
+          <p class="form-status" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <a class="brand" href="#top">
+          <svg class="brand-mark" viewBox="0 0 64 64" aria-hidden="true"><use href="#boot-icon"/></svg>
+          <span class="brand-name">Millborn<span>Boots</span></span>
+        </a>
+        <p class="footer-tag">Handmade leather boots and goods.</p>
+      </div>
+      <p class="copyright">© <span id="year">2026</span> Millborn Boots. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <!-- Shared SVG symbols -->
+  <svg width="0" height="0" style="position:absolute" aria-hidden="true">
+    <defs>
+      <symbol id="boot-icon" viewBox="0 0 64 64">
+        <path fill="currentColor" d="M18 6h18c1.7 0 3 1.3 3 3v22c0 1.4.8 2.6 2 3.2l12.6 6.1c3.3 1.6 5.4 4.9 5.4 8.6V52H6v-6l3-2V9c0-1.7 1.3-3 3-3h6z"/>
+        <path fill="var(--sole, #1d140e)" d="M4 52h57v4.5c0 .8-.7 1.5-1.5 1.5H5.5C4.7 58 4 57.3 4 56.5V52z"/>
+        <rect x="10" y="49" width="10" height="3" fill="var(--sole, #1d140e)"/>
+        <g fill="none" stroke="var(--stitch, #e8c99a)" stroke-width="1.1" stroke-dasharray="2 2" stroke-linecap="round">
+          <path d="M12 10v33"/><path d="M35 10v21c0 2.8 1.6 5.3 4.1 6.5l11.6 5.6"/><path d="M8 48h52"/>
+        </g>
+        <g fill="var(--stitch, #e8c99a)"><circle cx="30" cy="14" r="1.3"/><circle cx="30" cy="20" r="1.3"/><circle cx="30" cy="26" r="1.3"/><circle cx="30" cy="32" r="1.3"/></g>
+      </symbol>
+      <symbol id="belt-icon" viewBox="0 0 64 64">
+        <rect x="4" y="26" width="56" height="12" rx="2" fill="currentColor"/>
+        <rect x="12" y="22" width="14" height="20" rx="2" fill="none" stroke="var(--stitch, #e8c99a)" stroke-width="3"/>
+        <path d="M19 32h12" stroke="var(--stitch, #e8c99a)" stroke-width="2.5"/>
+        <g fill="var(--sole, #1d140e)"><circle cx="40" cy="32" r="1.6"/><circle cx="47" cy="32" r="1.6"/><circle cx="54" cy="32" r="1.6"/></g>
+      </symbol>
+      <symbol id="wallet-icon" viewBox="0 0 64 64">
+        <rect x="8" y="16" width="48" height="34" rx="4" fill="currentColor"/>
+        <rect x="11" y="19" width="42" height="28" rx="2" fill="none" stroke="var(--stitch, #e8c99a)" stroke-width="1.1" stroke-dasharray="2 2"/>
+        <path d="M32 16v34" stroke="var(--sole, #1d140e)" stroke-width="1.5" opacity=".5"/>
+      </symbol>
+      <symbol id="bag-icon" viewBox="0 0 64 64">
+        <path d="M22 22v-6a10 10 0 0 1 20 0v6" fill="none" stroke="var(--sole, #1d140e)" stroke-width="3.5"/>
+        <path fill="currentColor" d="M10 22h44l-3 34H13z"/>
+        <path d="M14 26h36l-2.6 26H16.6z" fill="none" stroke="var(--stitch, #e8c99a)" stroke-width="1.1" stroke-dasharray="2 2"/>
+        <g fill="var(--stitch, #e8c99a)"><circle cx="22" cy="24" r="1.6"/><circle cx="42" cy="24" r="1.6"/></g>
+      </symbol>
+    </defs>
+  </svg>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
