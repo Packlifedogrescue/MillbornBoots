@@ -22,7 +22,7 @@ python3 -m http.server 8000
 
 - Set `CONTACT_EMAIL` at the top of `js/main.js` to the shop's real address. The form opens the visitor's email app with the inquiry filled in.
 - Update the product names, prices and descriptions in `index.html`.
-- Replace the illustrated product art with real photos when they're ready.
+- Add real product photos when they're ready (the cards are text-only for now).
 
 ## Deploy
 
